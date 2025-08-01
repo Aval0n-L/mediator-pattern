@@ -1,0 +1,21 @@
+﻿  <Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+      <TargetFramework>net9.0</TargetFramework>
+      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+      <Version>0.0.1</Version>
+      <Authors>Raman Pakhomau</Authors>
+      <Company>Avalon</Company>
+      <PackageId>MediatorNet</PackageId>
+      <Title>MediatorNet</Title>
+      <Description>Lightweight and extensible Mediator pattern implementation for .NET</Description>
+      <PackageTags>mediator;pattern;dotnet;library</PackageTags>
+      <RepositoryUrl>https://github.com/Aval0n-L/mediator-pattern</RepositoryUrl>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageProjectUrl>https://github.com/Aval0n-L/mediator-pattern</PackageProjectUrl>
+      <Copyright>© 2025 Raman Pakhomau</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+    </ItemGroup>
+  </Project>
